@@ -1,0 +1,60 @@
+<html>
+  <head> </head>
+  <body>
+    <h1>DEMO</h1>
+    まだコード生成が決め打ちなのでたいしたことはできません
+
+    <div align="center">
+      <table>
+        <tr>
+          <td>
+            <textarea id="origin_area" style="width: 300px; height: 200px">
+{:red-circle 1
+:red-triangle 2
+:blue-rectangle 3}
+    </textarea
+            >
+          </td>
+
+          <td style="font-size: 40px">--</td>
+
+          <td>
+            <div
+              style="width: 300px; height: 300px; border: solid"
+              id="idiom_area"
+            ></div>
+          </td>
+
+          <td style="font-size: 40px">→</td>
+
+          <td>
+            <textarea id="applied_area" style="width: 300px; height: 200px">
+{:purple-circle 1
+:purple-triangle 2
+:blue-rectangle 3}
+    </textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td>
+            <br />
+            <button
+              style="width: 100%; height: 40px"
+              onclick="idiom_instructor.core.fire()"
+            >
+              Generate
+            </button>
+          </td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <script src="./js/cljs-dev/goog/base.js"></script>
+    <script src="./js/dev.js"></script>
+    <script> goog.require("idiom_instructor.core"); </script>
+  </body>
+</html>
