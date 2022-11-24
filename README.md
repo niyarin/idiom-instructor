@@ -1,14 +1,13 @@
 # idiom-instructor
 
-A Clojure library designed to ... well, that part is up to you.
+WIP
 
-## Usage
-
-FIXME
+## Demo
+https://niyarin.github.io/idiom-instructor/
 
 ## License
 
-Copyright © 2022 FIXME
+Copyright © 2022 Niyarin
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
