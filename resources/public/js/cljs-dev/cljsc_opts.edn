@@ -1,0 +1,1 @@
+{:output-wrapper false, :externs ["closure-js/externs"], :libs ["closure-js/libs"], :optimizations :whitespace, :output-to "resources/public/js/dev.js", :output-dir "resources/public/js/cljs-dev", :pretty-print true}
