@@ -4,16 +4,16 @@ goog.require('cljs.core');
 goog.require('idiom_instructor.known_pattern');
 idiom_instructor.i.apply_safe = (function idiom_instructor$i$apply_safe(f,col,vis,lazy_QMARK_){
 try{return new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"res","res",-1395007879),f.call(null,col),new cljs.core.Keyword(null,"lazy?","lazy?",2035907855),lazy_QMARK_,new cljs.core.Keyword(null,"vis","vis",1600557322),vis], null);
-}catch (e2197){var ex = e2197;
+}catch (e5152){var ex = e5152;
 return null;
 }});
 idiom_instructor.i.instruct_known_idiom = (function idiom_instructor$i$instruct_known_idiom(origin,applied){
-var G__2198 = idiom_instructor.known_pattern.known_patterns;
-var G__2198__$1 = (((G__2198 == null))?null:cljs.core.keep.call(null,(function (p__2199){
-var vec__2200 = p__2199;
-var f = cljs.core.nth.call(null,vec__2200,(0),null);
-var vis = cljs.core.nth.call(null,vec__2200,(1),null);
-var lazy_QMARK_ = cljs.core.nth.call(null,vec__2200,(2),null);
+var G__5153 = idiom_instructor.known_pattern.known_patterns;
+var G__5153__$1 = (((G__5153 == null))?null:cljs.core.keep.call(null,(function (p__5154){
+var vec__5155 = p__5154;
+var f = cljs.core.nth.call(null,vec__5155,(0),null);
+var vis = cljs.core.nth.call(null,vec__5155,(1),null);
+var lazy_QMARK_ = cljs.core.nth.call(null,vec__5155,(2),null);
 var temp__5720__auto__ = idiom_instructor.i.apply_safe.call(null,f,origin,vis,lazy_QMARK_);
 if(cljs.core.truth_(temp__5720__auto__)){
 var ans = temp__5720__auto__;
@@ -26,12 +26,12 @@ return and__5043__auto__;
 } else {
 return null;
 }
-}),G__2198));
-var G__2198__$2 = (((G__2198__$1 == null))?null:cljs.core.filter.call(null,cljs.core.identity,G__2198__$1));
-if((G__2198__$2 == null)){
+}),G__5153));
+var G__5153__$2 = (((G__5153__$1 == null))?null:cljs.core.filter.call(null,cljs.core.identity,G__5153__$1));
+if((G__5153__$2 == null)){
 return null;
 } else {
-return cljs.core.first.call(null,G__2198__$2);
+return cljs.core.first.call(null,G__5153__$2);
 }
 });
 idiom_instructor.i.instruct_idiom = (function idiom_instructor$i$instruct_idiom(origin,applied){
